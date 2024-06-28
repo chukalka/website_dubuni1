@@ -1,0 +1,80 @@
+.bottoms{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 0.5vw;
+    margin-top: 0.3vw;
+    position: relative;
+    width: 18.264vw;
+    height: 14.236vw;
+}
+
+.b1{
+    display: grid;
+    position: relative;
+    background: #f6f6f621;
+    width: 18.264vw;
+    height: 4.028vw;
+    border-radius: 0.694vw;
+    box-shadow: inset 0vw 0vw 0.417vw 0px rgba(0, 0, 0, 0.5);
+    /* z-index: -1; */
+}
+
+.b1:hover, 
+.b1:hover ~ .b1{
+    box-shadow: inset 0vw 0vw 0.417vw 0px #ffffff;
+}
+
+.b2{
+    display: grid;
+    position: relative;
+    background: #f6f6f621;
+    width: 15.764vw;
+    height: 4.028vw;
+    border-radius: 0.694vw;
+    box-shadow: inset 0vw 0vw 0.417vw 0px rgba(0, 0, 0, 0.5);
+}
+
+.b2:hover, 
+.b2:hover ~ .b2{
+    box-shadow: inset 0vw 0vw 0.417vw 0px #ffffff;
+}
+
+.b3{
+    display: grid;
+    position: relative;
+    background: #f6f6f621;
+    width: 10.069vw;
+    height: 4.028vw;
+    border-radius: 0.694vw;
+    box-shadow: inset 0vw 0vw 0.417vw 0px rgba(0, 0, 0, 0.5);
+}
+
+.b3:hover, 
+.b3:hover ~ .b3{
+    box-shadow: inset 0vw 0vw 0.417vw 0px #ffffff;
+}
+
+.b4{
+    position: absolute;
+    border-radius: 10vw;
+    margin-left: 94.5vw;
+    margin-top: -13.9vw;
+    width: 3.9vw;
+    height: 3.9vw;
+    box-shadow: inset 0vw 0vw 0.417vw 0px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.b4:hover, 
+.b4:hover ~ .b4{
+    box-shadow: inset 0vw 0vw 0.417vw 0px #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+    .bottoms{
+   display: none;
+}
+}

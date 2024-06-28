@@ -1,0 +1,206 @@
+.circle{
+    border-radius: 10vw;
+    display: grid;
+    width: 12.083vw;
+    height: 12.083vw;
+    background: radial-gradient(circle at 50%, #f6f6f661, #f6f6f661 55%, #fffeff 78%, #fdfcfd 100%);
+    backdrop-filter: blur(10px);
+}
+
+.cir1{
+    position: absolute;
+    top: -15vw;
+    left: 61vw;
+    animation: cir1 10s infinite linear;
+}
+
+@keyframes cir1{
+    0%{translate: 0vw 0vw;}
+    100%{translate: 0vw 100vw;}
+}
+
+.cir2{
+    position: absolute;
+    top: -15vw;
+    left: 55vw;
+    animation: cir1 10s infinite linear;
+    animation-delay: 0.5s;
+}
+
+.cir3{
+    position: absolute;
+    top: -15vw;
+    left: 10vw;
+    animation: cir1 10s infinite linear;
+    animation-delay: 1s;
+}
+
+.cir4{
+    position: absolute;
+    top: -15vw;
+    left: 30vw;
+    animation: cir1 10s infinite linear;
+    animation-delay: 2s;
+}
+
+.cir5{
+    position: absolute;
+    top: -15vw;
+    left: 80vw;
+    animation: cir1 10s infinite linear;
+    animation-delay: 2.7s;
+}
+
+
+.cir6{
+    position: absolute;
+    top: -15vw;
+    left: 61vw;
+    animation: cir2 10s infinite linear;
+}
+
+@keyframes cir2{
+    0%{translate: 0vw 100vw;}
+    100%{translate: 0vw -10vw;}
+}
+
+.cir7{
+    position: absolute;
+    top: -15vw;
+    left: 55vw;
+    animation: cir2 10s infinite linear;
+    animation-delay: 0.5s;
+}
+
+.cir8{
+    position: absolute;
+    top: -15vw;
+    left: 10vw;
+    animation: cir2 10s infinite linear;
+    animation-delay: 1s;
+}
+
+.cir9{
+    position: absolute;
+    top: -15vw;
+    left: 30vw;
+    animation: cir2 10s infinite linear;
+    animation-delay: 2s;
+}
+
+.cir10{
+    position: absolute;
+    top: -15vw;
+    left: 80vw;
+    animation: cir2 10s infinite linear;
+    animation-delay: 2.7s;
+}
+
+@media screen and (max-width: 800px) {
+    .circle {
+        border-radius: 20vw;
+        display: grid;
+        width: 40vw;
+        height: 40vw;
+        background: radial-gradient(circle at 50%, #f6f6f661, #f6f6f661 55%, #fffeff 78%, #fdfcfd 100%);
+        backdrop-filter: blur(10px);
+    }
+
+    .cir1 {
+        position: absolute;
+        top: 10vw;
+        left: 103vw;
+        animation: cir1 5s infinite linear; 
+    }
+
+    .cir2 {
+        position: absolute;
+        top: 106vw;
+        left: 103vw;
+        animation: cir1 3s infinite linear;
+        animation-delay: 0.5s;
+    }
+
+    .cir3 {
+        position: absolute;
+        top: 150vw;
+        left: 103vw;
+        animation: cir1 4s infinite linear;
+        animation-delay: 1s;
+    }
+
+    .cir4 {
+        position: absolute;
+        top: 88vw;
+        left: 103vw;
+        animation: cir1 3s infinite linear;
+        animation-delay: 2s;
+    }
+
+    .cir5 {
+        position: absolute;
+        top: 27vw;
+        left: 104vw;
+        animation: cir1 4s infinite linear;
+        animation-delay: 2.7s;
+    }
+
+    .cir6 {
+        position: absolute;
+        top: 47vw;
+        left: -47vw;
+        animation: cir2 3s infinite linear;
+    }
+
+    .cir7 {
+        position: absolute;
+        top: 90vw;
+        left: -44vw;
+        animation: cir2 4s infinite linear;
+        animation-delay: 0.5s;
+    }
+
+    .cir8 {
+        position: absolute;
+        top: 10vw;
+        left: -41vw;
+        animation: cir2 3s infinite linear;
+        animation-delay: 1s;
+    }
+
+    .cir9 {
+        position: absolute;
+        top: 130vw;
+        left: -49vw;
+        animation: cir2 3s infinite linear;
+        animation-delay: 2s;
+    }
+
+    .cir10 {
+        position: absolute;
+        top: 145vw;
+        left: -44vw;
+        animation: cir2 3s infinite linear;
+        animation-delay: 2.7s;
+    }
+
+    @keyframes cir2{
+        0%{translate: -10vw 0vw;}
+        100%{translate: 200vw 0vw;}
+    }
+
+    @keyframes cir1{
+        0%{translate: 10vw 0vw;}
+        100%{translate: -200vw 0vw;}
+    }
+
+    .mis {
+        font-family: "PPWriter-Book-BF6445d4ec72b68";
+        font-variant: normal;
+        font-size: 29.176vw;
+        position: relative;
+        color: #ffffff;
+        top: 97vw;
+        left: 28vw;
+    }
+}

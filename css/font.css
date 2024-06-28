@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "PPPangramSans-Semibold";
+    src: url("../font/PPPangramSans-Semibold.otf") format(truetype);
+    font-size: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PPWriter-Book";
+    src: url("/font/PPWriter-Book.otf") format(truetype);
+    font-size: smaller;
+}
+
+@font-face {
+    font-family: "PPWriter-Book-BF6445d4ec72b68";
+    src: url("../font/PPWriter-Book-BF6445d4ec72b68.otf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PPPangramSans-Medium";
+    src: url("../font/PPPangramSans-Medium.otf");
+    font-size: normal;
+    font-weight: normal;
+}
+
+h1{
+    font-family: "PPPangramSans-Semibold";
+    font-size: normal; 
+    font-weight: normal;
+    font-size: 3.333vw;
+    position: absolute;
+    color: #FF66E6;
+    justify-self: center;
+    align-self: center;
+}
+
+.white{
+    font-family: "PPPangramSans-Semibold";
+    font-size: normal; 
+    font-weight: normal;
+    font-size: 3.333vw;
+    position: absolute;
+    color: #ffffff;
+    justify-self: center;
+    align-self: center;
+}
+
+h2{
+    font-family: "PPPangramSans-Semibold";
+    font-size: normal; 
+    font-weight: normal;
+    font-size: 2vw;
+    position: absolute;
+    color: #FF66E6;
+    justify-self: center;
+    align-self: center; 
+    text-align: center;
+}
+
+h5{
+    font-family: "PPPangramSans-Semibold";
+    font-size: normal; 
+    font-weight: normal;
+    font-size: 2vw;
+    position: absolute;
+    color: #ffffff;
+    justify-self: center;
+    align-self: center; 
+    text-align: center;
+}
+
+.pos{
+    position: relative;
+    top: 2vw;
+    font-family: "PPPangramSans-Semibold";
+    font-size: normal; 
+    font-weight: normal;
+    font-size: 2vw;
+    /* position: absolute; */
+    color: #ffffff;
+    justify-self: center;
+    align-self: center; 
+    text-align: center;
+}
+
+h3{
+    font-family: "PPWriter-Book-BF6445d4ec72b68";
+    font-variant: normal;
+    font-size: 7.176vw;
+    position: relative;
+    color: #ffffff; 
+}
+
+h4{
+    font-family: "PPPangramSans-Medium";
+    font-variant: normal;
+    font-size: 1.389vw;
+    position: relative;
+    color: #ffffff;  
+}
+
+@media screen and (max-width: 800px){
+    h2{
+        font-family: "PPPangramSans-Medium";
+        font-variant: normal;
+        font-size: 7.389vw;
+        position: absolute;
+        color: #FF66E6; 
+    }
+}

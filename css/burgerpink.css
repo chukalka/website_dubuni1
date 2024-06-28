@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    box-shadow: inset 0vw -1vw 4vw 3px rgb(254, 253, 253);
+    border-radius: 4vw;
+    position: relative;
+    overflow: hidden;
+    width: 93.3vw;
+    left: 3vw;
+  }
+  
+  nav .menu {
+    display: none;
+  }
+  
+  nav .menu li {
+    display: inline;
+  }
+  
+  nav .menu li a {
+    display: block;
+    font-family: "PPPangramSans-Medium";
+    font-variant: normal;
+    font-size: 7.389vw;
+    position: relative;
+    top: -2vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    /* margin: 1.5vw; */
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* nav .menu li a:hover {
+    background-color: #ffffff;
+  } */
+  
+  .menu-icon {
+    display: none;
+    font-size: 30px;
+    color: #ff66e6;
+    padding: 14px 16px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 800px){
+    nav .menu {
+        display: none;
+        flex-direction: column;
+      }
+    
+      nav .menu-icon {
+        display: block;
+      }
+    
+      nav .menu li {
+        display: block;
+      }
+  }

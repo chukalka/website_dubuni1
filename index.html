@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site_dubuni</title>
+    <link rel="icon" type="image/x-icon" href="./images/Ellipse.svg">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./css/menupink.css">
+   <link rel="stylesheet" href="./css/formapink.css">
+   <link rel="stylesheet" href="./css/burgerwhite.css">
+
+    <script src="./javascripts/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.18.0/matter.min.js"></script>
+    <script src="./javascripts/java-script.js"></script>
+    <script src="./javascripts/popup.js"></script>
+    <script src="./javascripts/form.js"></script>
+    <script src="./javascripts/burger.js"></script>
+</head>
+<body>
+    <div class="bottoms">
+        <a href="uchim.html" class="b1">
+            <h1>чему учим</h1>
+        </a>
+        <a href="events.html" class="b2">
+            <h1>события</h1>
+        </a>
+        <a href="merch.html" class="b3">
+            <h1>мерч</h1>
+        </a>
+    </div> 
+
+    <nav>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <ul class="menu">
+          <li><a href="./index.html"> главная </a></li>
+          <li><a href="./uchim.html"> чему учим</a></li>
+          <li><a href="./events.html"> события</a></li>
+          <li><a href="./merch.html"> мерч </a></li>
+        </ul>
+      </nav>
+    
+    <div class="positioning">
+        <img class="a-image abs" src="./images/abstract 1.svg" alt="">
+    
+        <img class="a-image dnk" src="./images/dnk 1.svg" alt="">
+    
+        <img class="a-image vakuol" src="./images/vakuol6 1.svg" alt="">
+    
+        <img class="a-image waterdreen" src="./images/watergr.svg" alt="">
+    
+        <img class="a-image core1 " src="./images/coraa1.svg" alt="">
+    
+        <img class="a-image core2" src="./images/coraa2.svg" alt="">
+    
+        <img class="a-image waterpink" src="./images/waterpink.svg" alt="">
+
+    </div>
+    <canvas id="canvas-target" ></canvas>
+
+    <a href="https://chukalka.github.io/Dubuni-wed-plakat/" class="cir cir1">
+        <h2>жми</h2>
+    </a>
+    <a href="#openforma" class="cir cir2">
+        <h2>успей <br> подать <br> заявку </h2>
+    </a>
+    <a href="https://chukalka.github.io/interactive_dubuni/" class="cir cir3">
+        <h2>тренажёр</h2> 
+    </a>
+
+    <section id="openforma" class="formablock">
+        <h2 class="signup">Поступить в Dubuni</h2>
+        <form class="form">
+          <input class="field" placeholder="e-mail" type="text" />
+          <input class="field" placeholder="name" type="text" />
+          <button type="submit" class="form-button">
+            <a class="text-button">поступить</a>
+          </button>
+        </form>
+    </section>
+    
+    <div class="popup">
+        <div class="popup-wrapper"></div>
+       <div class="popup-content">
+         <p class="pop-text">ваша заявка <br> успешно отправлена</p>
+         <button class="next">
+            <p class="ok">ок</p>
+         </button>
+       </div>
+   </div> 
+
+    
+  
+  
+</body>
+</html>

@@ -1,0 +1,205 @@
+*{ box-sizing: border-box;}
+html, body{
+    display: block; 
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative; 
+    height: 100svh;
+}
+
+.cir{
+    /* position: absolute; */
+    border-radius: 10vw;
+    display: grid;
+    width: 12.083vw;
+    height: 12.083vw;
+    background: radial-gradient(circle at 50%, #f6f6f661, #f6f6f661 55%, #ff66e6 78%, #ff66e6 100%);
+    backdrop-filter: blur(10px);
+}
+
+.cir1{
+    position: absolute;
+    top: 0.4vw;
+    left: 61vw;
+    animation: cir1 10s infinite ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes cir1{
+    0%{translate: 0vw 0vw;}
+    50%{translate: -50vw 28vw;}
+    100%{translate: 24vw 33vw;}
+}
+
+.cir2{
+    position: absolute;
+    animation: cir2 8s infinite ease-in-out;
+    animation-direction: alternate;
+    top: 28vw;
+    left: 29vw;
+}
+
+@keyframes cir2{
+    0%{translate: 0vw 0vw;}
+    50%{translate: -21vw -27vw;}
+    100%{translate: 38vw -11vw;}
+}
+
+.cir3{
+    position: absolute;
+    top: 34vw;
+    left: 82vw;
+    animation: cir3 12s infinite ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes cir3{
+    0%{translate: 0vw 0vw;}
+    50%{translate: -8vw -33vw;}
+    100%{translate: -59vw -2vw;}
+}
+
+.a-image {
+    position: absolute;
+    /* width: 250px; 
+    height: 250px;  */
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.abs{
+    width: 41.90vw;
+    height: 43.75vw;
+}
+
+.dnk{
+    width: 15.72vw;
+    height: 34.78vw;
+}
+
+.vakuol{
+    width: 21.99vw;
+    height: 20.60vw;
+}
+
+#canvas-target{
+    overflow-x: hidden;
+    width: 110vw;
+    height: 52.9vw; 
+    display: block;
+    margin: -5vw;
+    padding: 0;
+}
+
+.positioning { 
+    display: none;
+    position: relative;
+}
+
+.waterdreen{
+    width: 26.16vw;
+    height: 26.85vw;
+}
+
+.waterpink{
+    width: 18.52vw;
+    height: 20.1vw;
+}
+
+.core1{
+    width: 27.31vw;
+    height: 28.55vw;
+}
+
+.core2{
+    width: 36.12vw;
+    height: 35.32vw;
+}
+
+
+@media screen and (max-width: 800px) {
+    #canvas-target {
+        overflow-x: hidden;
+        width: 119vw;
+        height: 224.63vw;
+        display: block;
+        margin: -8vw;
+        padding: 0;
+    }
+
+    .cir{
+        border-radius: 20vw;
+        display: grid;
+        width: 40vw;
+        height: 40vw;
+        background: radial-gradient(circle at 50%, #f6f6f661, #f6f6f661 55%, #ff66e6 78%, #ff66e6 100%);
+        backdrop-filter: blur(10px);
+    }
+
+    .cir1 {
+        position: absolute;
+        top: 15.4vw;
+        left: 61vw;
+        animation: cir1 5s infinite linear;
+        animation-direction: alternate;
+    }
+
+    @keyframes cir1{
+        0% {
+            /* translate: 0vw 0vw; */
+        }
+        50% {
+            translate: -62vw 102vw;
+        }
+        100% {
+            translate: -3vw 138vw;
+        }
+    }
+
+    @keyframes cir2{
+        0% {
+            translate: 0vw 0vw;
+        }
+        50% {
+            translate: -29vw 62vw;
+        }
+        100% {
+            translate: 31vw 100vw;
+        }
+            
+    }
+
+    @keyframes cir3{
+        0% {
+            translate: -23vw 0vw;
+        }
+        50% {
+            translate: -69vw 120vw;
+        }
+        100% {
+            translate: -42vw -34vw;
+        }
+    }
+    
+    
+    .cir2{
+        position: absolute;
+        animation: cir2 3s infinite linear;
+        animation-direction: alternate;
+        top: 28vw;
+        left: 29vw;
+    }
+    
+    .cir3{
+        position: absolute;
+        top: 34vw;
+        left: 82vw;
+        animation: cir3 4s infinite linear;
+        animation-direction: alternate;
+    }
+    
+    
+    
+    
+}
+

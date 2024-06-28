@@ -1,0 +1,457 @@
+*{ box-sizing: border-box;}
+html, body{
+    display: block; 
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #FF66E6; 
+    height: 100svh;
+}
+
+
+.day{
+    color: #ffffff;
+    position: relative;
+    top: 4vw;
+    left: 27vw;
+}
+
+.posters1{
+    position: relative;
+    top: 34vw;
+    width: 100vw;
+    height: 83.97vw;
+}
+
+.cor6{
+    position: absolute;
+    top: 0vw;
+    width: 25.12vw;
+    height: 26.32vw;
+    left: 34vw;
+    animation:cor 6s linear infinite;
+    animation-delay: 5s;
+}
+
+.cor5{
+    position: absolute;
+    top: 0vw;
+    width: 25.12vw;
+    height: 26.32vw;
+    left: 34vw;
+    animation:cor 6s linear infinite;
+    animation-delay: 4s;
+}
+
+.cor4{
+    position: absolute;
+    top: 0vw;
+    width: 25.12vw;
+    height: 26.32vw;
+    left: 34vw;
+    animation:cor 6s linear infinite; 
+    animation-delay: 3s; 
+}
+
+@keyframes cor {
+    0% {
+      transform: scale(1);
+      translate: 0vw -5vw;
+      
+    }
+    100% {
+      transform: scale(2);
+      translate: 0vw 60vw;
+      
+    }
+}
+
+.cor3{
+    position: absolute;
+    top: 0vw;
+    width: 25.12vw;
+    height: 26.32vw;
+    left: 34vw;
+    animation:cor 6s linear infinite;
+    animation-delay: 2s; 
+}
+
+.cor2{
+    position: absolute;
+    top: 0vw;
+    width: 25.12vw;
+    height: 26.32vw;
+    left: 34vw;
+    animation:cor 6s linear infinite;
+    animation-delay: 1s; 
+}
+
+.cor1{
+    position: absolute;
+    top: 0vw;
+    width: 25.12vw;
+    height: 26.32vw;
+    left: 34vw;
+    animation:cor 6s linear infinite;
+   
+}
+
+.block1{
+    position: relative;
+    top: 10vw;
+    width: 100vw;
+    height: 86.111vw;
+}
+
+.scroll1{
+    position: absolute;
+    top: 0vw;
+    left: 0.5vw;
+    width: 47.032vw;
+    height: 14.352vw;
+    border-radius: 1vw;
+    box-shadow: inset 0vw 0vw 1vw 7px #ffffff;
+    backdrop-filter: blur(0.3vw);
+    overflow: auto;
+}
+
+.scroll1::-webkit-scrollbar {
+    width: 0;
+}
+
+.scroll2{
+    position: absolute;
+    top: 0vw;
+    left: 0.5vw;
+    width: 47.032vw;
+    height: 14.352vw;
+    border-radius: 1vw;
+    box-shadow: inset 0vw 0vw 1vw 7px #ffffff;
+    backdrop-filter: blur(0.3vw);
+    overflow: auto;
+}
+
+.scroll2::-webkit-scrollbar {
+    width: 0;
+}
+
+.scroll3{
+    position: absolute;
+    top: 0vw;
+    left: 0.5vw;
+    width: 47.032vw;
+    height: 14.352vw;
+    border-radius: 1vw;
+    box-shadow: inset 0vw 0vw 1vw 7px #ffffff;
+    backdrop-filter: blur(0.3vw);
+    overflow: auto;
+}
+
+.scroll3::-webkit-scrollbar {
+    width: 0;
+}
+
+.sctext{
+    font-family: "PPPangramSans-Medium";
+    font-variant: normal;
+    font-size: 1.389vw;
+    position: relative;
+    color: #ffffff; 
+    margin: 1vw;
+}
+
+.dub{
+    display: none;
+}
+
+.plakats{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 2.4vw;
+    top: 23vw;
+    width: 94.618vw;
+    height: 45.66vw;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plakats img{
+    width: 30.44vw;
+    height: 45.66vw;
+}
+
+.block2{
+    position: relative;
+    top: 0vw;
+    width: 100vw;
+    height: 70.111vw;
+}
+
+.list1{
+    position: absolute;
+    top: 41vw;
+    width: 80.361vw;
+    height: 65.104vw;
+    left: 14vw;
+    animation: leaf 3s linear infinite;
+}
+
+.list2{
+    position: absolute;
+    top: 1vw;
+    width: 75.361vw;
+    height: 65.104vw;
+    left: -9vw;
+    animation: leaf 2s linear infinite;
+}
+
+.list3{
+    position: absolute;
+    top: 0vw;
+    width: 76.361vw;
+    height: 65.104vw;
+    left: 40vw;
+    animation: leaf 5s linear infinite;
+}
+
+@keyframes leaf {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+.block3{
+    position: relative;
+    top: 7vw;
+    width: 100vw;
+    height: 81.111vw;
+}
+
+.ball1{
+    position: absolute;
+    top: 56vw;
+    width: 27.373vw;
+    height: 29.225vw;
+    left: 3vw;
+    animation: ball1 1.5s linear infinite; 
+    animation-direction: alternate;
+}
+
+@keyframes ball1 {
+    0% {
+      translate: 0vw 0vw;
+      
+    }
+    100% {
+      translate: 0vw -56vw;
+      
+    }
+}
+
+.ball2{
+    position: absolute;
+    top: 7vw;
+    width: 19.213vw;
+    height: 19.792vw;
+    left: 40vw;
+    animation: ball2 1.5s linear infinite; 
+    animation-direction: alternate;
+}
+
+@keyframes ball2 {
+    0% {
+      translate: 0vw 0vw;
+      
+    }
+    100% {
+      translate: 0vw 56vw;
+      
+    }
+}
+
+.ball3{
+    position: absolute;
+    top: 56vw;
+    width: 27.373vw;
+    height: 29.225vw;
+    left: 68vw;
+    animation: ball1 1.5s linear infinite; 
+    animation-direction: alternate;
+}
+
+@keyframes ball1 {
+    0% {
+      translate: 0vw 0vw;
+      
+    }
+    100% {
+      translate: 0vw -56vw;
+      
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .day{
+        display: none;
+    }
+
+    .scroll1 {
+        position: relative;
+        /* top: 13vw; */
+        left: 3vw;
+        width: 94.032vw;
+        height: 194.352vw;
+        border-radius: 4vw;
+        box-shadow: inset 0vw 0vw 3vw 2vw #ffffff;
+        backdrop-filter: blur(0.3vw);
+        overflow: auto;
+    }
+
+    .scroll2 {
+        position: relative;
+        /* top: 13vw; */
+        left: 3vw;
+        width: 94.032vw;
+        height: 197.352vw;
+        border-radius: 4vw;
+        box-shadow: inset 0vw 0vw 3vw 2vw #ffffff;
+        backdrop-filter: blur(0.3vw);
+        overflow: auto;
+    }
+
+    .scroll3 {
+        position: relative;
+        top: 13vw; 
+        left: 3vw;
+        width: 94.032vw;
+        height: 197.352vw;
+        border-radius: 4vw;
+        box-shadow: inset 0vw 0vw 3vw 2vw #ffffff;
+        backdrop-filter: blur(0.3vw);
+        overflow: auto;
+    }
+
+    .sctext {
+        font-family: "PPPangramSans-Medium";
+        font-variant: normal;
+        font-size: 7.389vw;
+        position: relative;
+        color: #ffffff;
+        margin: 3vw;
+    }
+     
+    .plakats {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 2.4vw;
+        top: 30vw;
+        width: 94.618vw;
+        height: 450.66vw;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .dub {
+        top: 36vw;
+    }
+
+    .block1 {
+        position: relative;
+        top: 6vw;
+        width: 100vw;
+        height: 679.111vw;
+    }
+
+    .block2 {
+        position: relative;
+        top: 30vw;
+        width: 100vw;
+        height: 701.111vw;
+    }
+
+    .block3 {
+        position: relative;
+        top: 28vw;
+        width: 100vw;
+        height: 81.111vw;
+    }
+
+    .cor6{
+        display: none;
+    }
+    
+    .cor5{
+        display: none;
+    }
+    
+    .cor4{
+        display: none; 
+    }
+    
+    @keyframes cor {
+        0% {
+          transform: scale(1);
+          translate: 0vw -5vw;
+          
+        }
+        100% {
+          transform: scale(2);
+          translate: 0vw 60vw;
+          
+        }
+    }
+    
+    .cor3{
+        display: none;
+    }
+    
+    .cor2{
+        display: none; 
+    }
+    
+    .cor1{
+     display: none;
+    }
+
+    .plakats img {
+        width: 90.44vw;
+        height: 135.66vw;
+    }
+
+    .list1{
+       display: none;
+    }
+    
+    .list2{
+        display: none;
+    }
+    
+    .list3{
+      display: none;
+    }
+
+    .ball1{
+        display: none;
+    }
+
+    .ball2{
+        display: none;
+    }
+
+    .ball3{
+        display: none;
+    }
+
+    .bio{
+        top: 46vw;
+    }
+}
+

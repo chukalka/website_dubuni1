@@ -1,0 +1,19 @@
+*{ box-sizing: border-box;}
+html, body{
+    display: block; 
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #FF66E6; 
+    height: 100svh;
+}
+
+.mis{
+    font-family: "PPWriter-Book-BF6445d4ec72b68";
+    font-variant: normal;
+    font-size: 19.176vw;
+    position: relative;
+    color: #ffffff;
+    top: 16vw;
+    left: 35vw; 
+}
